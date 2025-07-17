@@ -1,0 +1,38 @@
+{
+  "name": "@hugerte/hugerte-angular",
+  "description": "HugeRTE Angular Component",
+  "version": "1.0.2",
+  "repository": "https://github.com/hugerte/hugerte-angular.git",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@hugerte/framework-integration-shared": "^1.0.1",
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=16.0.0",
+    "@angular/common": ">=16.0.0",
+    "@angular/forms": ">=16.0.0",
+    "rxjs": "^7.4.0",
+    "hugerte": "^1.0.6"
+  },
+  "peerDependenciesMeta": {
+    "hugerte": {
+      "optional": true
+    }
+  },
+  "module": "fesm2022/hugerte-hugerte-angular.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/hugerte-hugerte-angular.mjs",
+      "esm": "./esm2022/hugerte-hugerte-angular.mjs",
+      "default": "./fesm2022/hugerte-hugerte-angular.mjs"
+    }
+  },
+  "sideEffects": false
+}
