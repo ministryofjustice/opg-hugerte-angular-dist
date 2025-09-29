@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@hugerte/framework-integration-shared": "1.0.1",
+    "@hugerte/framework-integration-shared": "^1.0.1",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
