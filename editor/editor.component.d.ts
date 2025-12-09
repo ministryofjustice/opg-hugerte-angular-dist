@@ -33,7 +33,7 @@ export declare class EditorComponent extends Events implements AfterViewInit, Co
     private onTouchedCallback;
     private onChangeCallback;
     private destroy$;
-    constructor(elementRef: ElementRef, ngZone: NgZone, cdRef: ChangeDetectorRef, platformId: Object, hugerteScriptSrc?: string);
+    constructor(elementRef: ElementRef, ngZone: NgZone, cdRef: ChangeDetectorRef, platformId: object, hugerteScriptSrc?: string);
     writeValue(value: string | null): void;
     registerOnChange(fn: (_: any) => void): void;
     registerOnTouched(fn: any): void;

@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@hugerte/framework-integration-shared": "1.0.1",
+    "@hugerte/framework-integration-shared": "^1.0.1",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
@@ -29,8 +29,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/hugerte-hugerte-angular.mjs",
-      "esm": "./esm2022/hugerte-hugerte-angular.mjs",
       "default": "./fesm2022/hugerte-hugerte-angular.mjs"
     }
   },
